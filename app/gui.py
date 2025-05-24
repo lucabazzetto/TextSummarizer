@@ -40,7 +40,7 @@ class TextSummarizerApp:
                              padding=8)  # Internal spacing
         # Define button states
         self.style.map('TButton',
-            foreground=[('active', 'white'), ('!active', 'white')], # Text color
+            foreground=[('active', 'black'), ('!active', 'black')], # Text color
             background=[ # Background colors
                 ('active', self.colors['secondary']), # Hover state
                 ('!active', self.colors['primary']) # Normal state
