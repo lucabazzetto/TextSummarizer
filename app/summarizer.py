@@ -12,7 +12,6 @@ class TextSummarizer:
 
     def _download_nltk_resources(self):
         """Download necessary NLTK datasets"""
-        nltk.download('punkt', quiet=True, raise_on_error=True) # Sentence tokenizer data
         nltk.download('stopwords', quiet=True) # Common English stopwords
 
     def summarize(self, text, ratio=0.5):
