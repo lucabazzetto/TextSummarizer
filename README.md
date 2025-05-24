@@ -1,4 +1,4 @@
-# Text Summarizer Pro
+# Text Summarizer
 
 A GUI-based application for generating text summaries using TF-IDF and cosine similarity.
 
